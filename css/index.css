@@ -1,0 +1,317 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #1a1e26;
+  color: #fff;
+}
+
+.hero-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/wolf-looking-at-a-sunset-wallpaper.jpg");
+  background-attachment: fixed;
+  /* padding: 26em;
+    background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+
+  /* padding: 16rem 0 40rem 25rem; */
+}
+.hero-img a {
+  text-decoration: none;
+  /* border: 2px solid red; */
+  position: absolute;
+  width: auto;
+  top: 54%;
+  left: 46%;
+  padding: 2rem;
+  color: sandybrown;
+  font-size: 2rem;
+  background-color: transparent;
+  border-radius: 2rem;
+  transition: all 0.5s;
+  margin: 2rem;
+  text-align: center;
+}
+/* .hero-img a:hover{
+    border: none;
+    background-color:#199319;
+    color: whitesmoke;
+} */
+
+.hero-img span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  border: none;
+  border-radius: 4rem;
+  padding: 2.4rem;
+}
+
+.hero-img span:after {
+  content: "\00bb";
+  position: absolute;
+  /* background-color:#199319; */
+  opacity: 0;
+  top: 32%;
+
+  right: 20px;
+  transition: 0.5s;
+}
+
+.hero-img a:hover span {
+  background-color: #199319;
+  color: whitesmoke;
+  padding-right: 4rem;
+}
+
+.hero-img a:hover span::after {
+  opacity: 1;
+  right: 10px;
+}
+
+.hero-text {
+  position: absolute;
+  text-align: center;
+  /* padding: 6rem; */
+  font-size: 4rem;
+  left: 38%;
+  /* right: 40%; */
+  top: 46%;
+  color: sandybrown;
+}
+
+.button {
+  position: absolute;
+  background: transparent;
+  left: 50%;
+  top: 60%;
+  font-size: 2rem;
+  color: sandybrown;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.intro {
+  padding: 3rem;
+  margin: 3rem;
+  line-height: 1rem;
+  height: 100vh;
+  width: 90%;
+}
+
+.intro h2 {
+  text-align: center;
+  margin: 2rem;
+  outline: #199319 1rem solid;
+  padding: 2rem;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.intro p {
+  margin: 2rem;
+  padding: 2rem;
+  font-size: 2rem;
+  line-height: 1.8em;
+  letter-spacing: 00.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.intro h3 {
+  margin: 1rem;
+  padding: 2rem;
+  font-size: 3rem;
+}
+
+.intro ol {
+  margin: 4rem;
+  padding: 2rem;
+  font-size: 2rem;
+  line-height: 1.8em;
+  letter-spacing: 0.2rem;
+}
+
+.types-of-wolf {
+  margin: 20rem 0rem;
+  padding: 2rem;
+
+  height: auto;
+  width: 100vw;
+  text-align: center;
+}
+
+.types-of-wolf h2 {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 2.8em;
+  margin: 2rem;
+  outline: peru 2px solid;
+}
+
+.columns {
+  display: flex;
+
+  height: auto;
+}
+.columns h3 {
+  margin: 1rem;
+  padding: 2rem;
+  font-size: 3rem;
+}
+
+.columns p {
+  margin: 2rem;
+  padding: 1.4rem;
+  font-size: 1.4rem;
+  line-height: 1.8em;
+  letter-spacing: 0.1rem;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify;
+}
+
+.type1 img {
+  width: 86%;
+  height: auto;
+  margin: 2rem;
+}
+
+.type2 img {
+  width: 86%;
+  height: auto;
+  margin: 2rem;
+}
+
+.type3 img {
+  width: 68%;
+  height: auto;
+  margin: 2rem;
+}
+.type1 {
+  flex: 50%;
+}
+.type2 {
+  flex: 50%;
+}
+.type3 {
+  flex: 50%;
+}
+
+.thought {
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* position: relative; */
+  width: 99vw;
+  height: 140vh;
+  background-attachment: fixed;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/wolfpack.jpg");
+}
+
+.thought1 {
+  position: relative;
+  text-align: center;
+  font-size: 3em;
+  top: 12%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: sandybrown;
+}
+
+.thought2{
+    position: relative;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: sandybrown;
+  font-size: 3em;
+    top: 66%;
+}
+
+.contact {
+  display: flex;
+  background-color: #3669c9;
+  align-items: center;
+  background: url(../img/howling.png) center center fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background:center center fixed; */
+  height: 100vh;
+  width: 100vw;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.contact h2{
+    position:absolute;
+    top: 22% ;
+    left:68.8%;
+    font-size: 3.2rem;
+    display: inline-block;
+    border-bottom: peru 0.4rem solid;
+    color: black;
+}
+
+
+
+.form {
+    position:absolute;
+  top: 30%;
+  
+  left: 60%;
+}
+
+.box{
+    width: 100%;
+    border-bottom: 2px peru solid;
+    margin: 22px 0;
+    color: black;
+   
+}
+.box input {  
+    background: none;
+    width: 75%;
+    padding: 5px 10px;
+    font-size: 20px;
+    border: none;
+    outline:none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.box textarea{
+    background:transparent;
+    border: none;
+    outline:none;
+    width: 80%;
+    font-size: 20px;
+    padding: 5px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box i{ 
+    /* width: 18px;  */
+    text-align: center;
+    font-size: 1.2em;
+    margin:12px 0;
+}
+.form button{
+    background: transparent;
+    border: black;
+    cursor: pointer;
+    outline: 2px solid black;
+    border-radius: 4rem;
+    font-size: 1.2em;
+    padding: 1rem;
+    left: 12%;
+}
+
+.form button:hover{
+    background-color: peru;
+    color: whitesmoke;
+    border:peru;
+    outline:peru solid 2px ;
+}
