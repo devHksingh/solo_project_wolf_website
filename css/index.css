@@ -37,11 +37,7 @@ body {
   margin: 2rem;
   text-align: center;
 }
-/* .hero-img a:hover{
-    border: none;
-    background-color:#199319;
-    color: whitesmoke;
-} */
+
 
 .hero-img span {
   cursor: pointer;
@@ -56,7 +52,7 @@ body {
 .hero-img span:after {
   content: "\00bb";
   position: absolute;
-  /* background-color:#199319; */
+
   opacity: 0;
   top: 32%;
 
